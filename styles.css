@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #7BDAF3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#app{
+    text-align: center;
+}
+.notes{
+    background-color: white;
+    margin: 20px;
+    height: 300px;
+    width: 350px;
+    box-shadow: 22px 24px 10px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.notes .tools{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ECFAF5;
+    padding: 10px;
+}
+.notes .tools button{
+    border: none;
+    color: #9EC862;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.saveBtn{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 160px;
+}
+.notes textarea{
+    width: 350px;
+    height: 240px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    resize: none;
+}
+
+.notes #tools{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ECFAF5;
+    padding: 10px;
+    height: 60px;
+}
+
+#addBtn{
+   color: #ffffff;
+   border: none;
+   background-color: #9EC862;
+   font-size: 30px;
+   position: fixed;
+   bottom: 1rem;
+   padding: 0.5rem 1rem;
+   border-radius: 50%;
+   cursor: pointer;
+   right: 1rem;
+   
+}
+
+
+
+
